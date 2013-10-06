@@ -37,14 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E935BAF81801366F00B363B1 /* JA Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JA Battery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E935BAF81801366F00B363B1 /* Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E935BAFB1801366F00B363B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E935BAFD1801366F00B363B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E935BAFF1801366F00B363B1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E935BB031801366F00B363B1 /* JA Battery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JA Battery-Info.plist"; sourceTree = "<group>"; };
+		E935BB031801366F00B363B1 /* Battery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Battery-Info.plist"; sourceTree = "<group>"; };
 		E935BB051801366F00B363B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E935BB071801366F00B363B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E935BB091801366F00B363B1 /* JA Battery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JA Battery-Prefix.pch"; sourceTree = "<group>"; };
+		E935BB091801366F00B363B1 /* Battery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Battery-Prefix.pch"; sourceTree = "<group>"; };
 		E935BB0A1801366F00B363B1 /* JABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABAppDelegate.h; sourceTree = "<group>"; };
 		E935BB0B1801366F00B363B1 /* JABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABAppDelegate.m; sourceTree = "<group>"; };
 		E935BB0E1801366F00B363B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
@@ -52,9 +52,9 @@
 		E935BB131801366F00B363B1 /* JABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JABViewController.h; sourceTree = "<group>"; };
 		E935BB141801366F00B363B1 /* JABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JABViewController.m; sourceTree = "<group>"; };
 		E935BB161801366F00B363B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E935BB1C1801367000B363B1 /* JA BatteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JA BatteryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E935BB1C1801367000B363B1 /* BatteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BatteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E935BB1D1801367000B363B1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E935BB251801367000B363B1 /* JA BatteryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JA BatteryTests-Info.plist"; sourceTree = "<group>"; };
+		E935BB251801367000B363B1 /* BatteryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BatteryTests-Info.plist"; sourceTree = "<group>"; };
 		E935BB271801367000B363B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E935BB291801367000B363B1 /* JA_BatteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JA_BatteryTests.m; sourceTree = "<group>"; };
 		E935BB331801388300B363B1 /* JABBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JABBattery.h; sourceTree = "<group>"; };
@@ -100,8 +100,8 @@
 		E935BAF91801366F00B363B1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E935BAF81801366F00B363B1 /* JA Battery.app */,
-				E935BB1C1801367000B363B1 /* JA BatteryTests.xctest */,
+				E935BAF81801366F00B363B1 /* Battery.app */,
+				E935BB1C1801367000B363B1 /* BatteryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,10 +139,10 @@
 		E935BB021801366F00B363B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E935BB031801366F00B363B1 /* JA Battery-Info.plist */,
+				E935BB031801366F00B363B1 /* Battery-Info.plist */,
 				E935BB041801366F00B363B1 /* InfoPlist.strings */,
 				E935BB071801366F00B363B1 /* main.m */,
-				E935BB091801366F00B363B1 /* JA Battery-Prefix.pch */,
+				E935BB091801366F00B363B1 /* Battery-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 		E935BB241801367000B363B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				E935BB251801367000B363B1 /* JA BatteryTests-Info.plist */,
+				E935BB251801367000B363B1 /* BatteryTests-Info.plist */,
 				E935BB261801367000B363B1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E935BAF71801366F00B363B1 /* JA Battery */ = {
+		E935BAF71801366F00B363B1 /* Battery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E935BB2D1801367000B363B1 /* Build configuration list for PBXNativeTarget "JA Battery" */;
+			buildConfigurationList = E935BB2D1801367000B363B1 /* Build configuration list for PBXNativeTarget "Battery" */;
 			buildPhases = (
 				E935BAF41801366F00B363B1 /* Sources */,
 				E935BAF51801366F00B363B1 /* Frameworks */,
@@ -180,14 +180,14 @@
 			);
 			dependencies = (
 			);
-			name = "JA Battery";
+			name = Battery;
 			productName = "JA Battery";
-			productReference = E935BAF81801366F00B363B1 /* JA Battery.app */;
+			productReference = E935BAF81801366F00B363B1 /* Battery.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E935BB1B1801367000B363B1 /* JA BatteryTests */ = {
+		E935BB1B1801367000B363B1 /* BatteryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E935BB301801367000B363B1 /* Build configuration list for PBXNativeTarget "JA BatteryTests" */;
+			buildConfigurationList = E935BB301801367000B363B1 /* Build configuration list for PBXNativeTarget "BatteryTests" */;
 			buildPhases = (
 				E935BB181801367000B363B1 /* Sources */,
 				E935BB191801367000B363B1 /* Frameworks */,
@@ -198,9 +198,9 @@
 			dependencies = (
 				E935BB221801367000B363B1 /* PBXTargetDependency */,
 			);
-			name = "JA BatteryTests";
+			name = BatteryTests;
 			productName = "JA BatteryTests";
-			productReference = E935BB1C1801367000B363B1 /* JA BatteryTests.xctest */;
+			productReference = E935BB1C1801367000B363B1 /* BatteryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E935BAF31801366F00B363B1 /* Build configuration list for PBXProject "JA Battery" */;
+			buildConfigurationList = E935BAF31801366F00B363B1 /* Build configuration list for PBXProject "Battery" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E935BAF71801366F00B363B1 /* JA Battery */,
-				E935BB1B1801367000B363B1 /* JA BatteryTests */,
+				E935BAF71801366F00B363B1 /* Battery */,
+				E935BB1B1801367000B363B1 /* BatteryTests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,7 +285,7 @@
 /* Begin PBXTargetDependency section */
 		E935BB221801367000B363B1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E935BAF71801366F00B363B1 /* JA Battery */;
+			target = E935BAF71801366F00B363B1 /* Battery */;
 			targetProxy = E935BB211801367000B363B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -406,10 +406,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JA Battery/JA Battery-Prefix.pch";
-				INFOPLIST_FILE = "JA Battery/JA Battery-Info.plist";
+				GCC_PREFIX_HEADER = "JA Battery/Battery-Prefix.pch";
+				INFOPLIST_FILE = "JA Battery/Battery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Battery;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -420,10 +420,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JA Battery/JA Battery-Prefix.pch";
-				INFOPLIST_FILE = "JA Battery/JA Battery-Info.plist";
+				GCC_PREFIX_HEADER = "JA Battery/Battery-Prefix.pch";
+				INFOPLIST_FILE = "JA Battery/Battery-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Battery;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -444,8 +444,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "JA BatteryTests/JA BatteryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JA BatteryTests/BatteryTests-Info.plist";
+				PRODUCT_NAME = BatteryTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -463,8 +463,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JA Battery/JA Battery-Prefix.pch";
-				INFOPLIST_FILE = "JA BatteryTests/JA BatteryTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "JA BatteryTests/BatteryTests-Info.plist";
+				PRODUCT_NAME = BatteryTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -473,7 +473,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E935BAF31801366F00B363B1 /* Build configuration list for PBXProject "JA Battery" */ = {
+		E935BAF31801366F00B363B1 /* Build configuration list for PBXProject "Battery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E935BB2B1801367000B363B1 /* Debug */,
@@ -482,21 +482,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E935BB2D1801367000B363B1 /* Build configuration list for PBXNativeTarget "JA Battery" */ = {
+		E935BB2D1801367000B363B1 /* Build configuration list for PBXNativeTarget "Battery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E935BB2E1801367000B363B1 /* Debug */,
 				E935BB2F1801367000B363B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E935BB301801367000B363B1 /* Build configuration list for PBXNativeTarget "JA BatteryTests" */ = {
+		E935BB301801367000B363B1 /* Build configuration list for PBXNativeTarget "BatteryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E935BB311801367000B363B1 /* Debug */,
 				E935BB321801367000B363B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
