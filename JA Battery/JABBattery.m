@@ -29,6 +29,10 @@
     {
         //This must be enabled otherwise battery state/level will be incorrect
         [[UIDevice currentDevice] setBatteryMonitoringEnabled:YES];
+        
+        //Set up notifications
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(stateChangedNotification) name:UIDeviceBatteryLevelDidChangeNotification object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(percentageChangedNotification) name:UIDeviceBatteryStateDidChangeNotification object:nil];
     }
     return self;
 }
@@ -37,10 +41,12 @@
 
 -(void)setBatteryPercentageDidChangeBlock:(BatteryPercentageDidChange)block {
     _percentageDidChange = block;
+    [self percentageChangedNotification];
 }
 
 -(void)setBatteryStateDidChangeBlock:(BatteryStateDidChange)block {
     _stateDidChange = block;
+    [self stateChangedNotification];
 }
 
 -(void)stateChangedNotification {

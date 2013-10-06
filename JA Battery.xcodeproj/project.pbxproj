@@ -23,6 +23,7 @@
 		E935BB281801367000B363B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E935BB261801367000B363B1 /* InfoPlist.strings */; };
 		E935BB2A1801367000B363B1 /* JA_BatteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E935BB291801367000B363B1 /* JA_BatteryTests.m */; };
 		E935BB351801388300B363B1 /* JABBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = E935BB341801388300B363B1 /* JABBattery.m */; };
+		E935BB3818013DE900B363B1 /* JABBatteryView.m in Sources */ = {isa = PBXBuildFile; fileRef = E935BB3718013DE900B363B1 /* JABBatteryView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		E935BB291801367000B363B1 /* JA_BatteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JA_BatteryTests.m; sourceTree = "<group>"; };
 		E935BB331801388300B363B1 /* JABBattery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JABBattery.h; sourceTree = "<group>"; };
 		E935BB341801388300B363B1 /* JABBattery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JABBattery.m; sourceTree = "<group>"; };
+		E935BB3618013DE900B363B1 /* JABBatteryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JABBatteryView.h; sourceTree = "<group>"; };
+		E935BB3718013DE900B363B1 /* JABBatteryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JABBatteryView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				E935BB021801366F00B363B1 /* Supporting Files */,
 				E935BB331801388300B363B1 /* JABBattery.h */,
 				E935BB341801388300B363B1 /* JABBattery.m */,
+				E935BB3618013DE900B363B1 /* JABBatteryView.h */,
+				E935BB3718013DE900B363B1 /* JABBatteryView.m */,
 			);
 			path = "JA Battery";
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				E935BB0C1801366F00B363B1 /* JABAppDelegate.m in Sources */,
 				E935BB151801366F00B363B1 /* JABViewController.m in Sources */,
 				E935BB081801366F00B363B1 /* main.m in Sources */,
+				E935BB3818013DE900B363B1 /* JABBatteryView.m in Sources */,
 				E935BB351801388300B363B1 /* JABBattery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

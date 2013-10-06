@@ -17,7 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    JABBattery * battery = [JABBattery batteryMonitor];
+    
+    //These blocks will be called immediately after they are set to set the default values
+    [battery setBatteryPercentageDidChangeBlock:^(float fValue, NSInteger iValue) {
+        self.batteryView.batteryPercentage = iValue;
+        self.levelLabel.text = [NSString stringWithFormat:@"%d%%", iValue];
+    }];
+    
+    [battery setBatteryStateDidChangeBlock:^(UIDeviceBatteryState state, NSString * stateString) {
+        self.stateLabel.text = stateString;
+    }];
 }
 
 - (void)didReceiveMemoryWarning
