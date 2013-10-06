@@ -21,7 +21,7 @@
 
 - (void)drawRect:(CGRect)rect
 {
-    // Drawing code
+    BatteryDrawingFunction(UIGraphicsGetCurrentContext(), rect, (CGFloat)self.batteryPercentage / 100.0f);
 }
 
 -(void)setBatteryPercentage:(NSInteger)batteryPercentage

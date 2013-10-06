@@ -18,24 +18,32 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e6x-d0-mrF" customClass="JABBatteryView">
-                                <rect key="frame" x="128" y="256" width="512" height="512"/>
+                                <rect key="frame" x="128" y="372" width="512" height="280"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="512" id="ckO-q6-GOX"/>
-                                    <constraint firstAttribute="height" constant="512" id="dCm-OS-k7w"/>
+                                    <constraint firstAttribute="height" constant="280" id="dCm-OS-k7w"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qri-oY-ty9">
-                                <rect key="frame" x="128" y="776" width="512" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qri-oY-ty9">
+                                <rect key="frame" x="128" y="660" width="512" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="7h7-h5-gWn"/>
+                                    <constraint firstAttribute="width" constant="512" id="Bez-4N-fVa"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4O-ev-37c">
-                                <rect key="frame" x="128" y="805" width="512" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4O-ev-37c">
+                                <rect key="frame" x="128" y="689" width="512" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="512" id="rqL-Sq-Kqa"/>
+                                    <constraint firstAttribute="height" constant="21" id="yI4-mk-mta"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -43,8 +51,12 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="w4O-ev-37c" secondAttribute="centerX" id="4bK-TD-JoF"/>
                             <constraint firstAttribute="centerX" secondItem="e6x-d0-mrF" secondAttribute="centerX" id="FQD-yu-MPp"/>
+                            <constraint firstItem="Qri-oY-ty9" firstAttribute="top" secondItem="e6x-d0-mrF" secondAttribute="bottom" constant="8" id="eNA-3K-Mpr"/>
                             <constraint firstAttribute="centerY" secondItem="e6x-d0-mrF" secondAttribute="centerY" id="wzV-9i-Gqt"/>
+                            <constraint firstItem="w4O-ev-37c" firstAttribute="top" secondItem="Qri-oY-ty9" secondAttribute="bottom" constant="8" id="zFC-g2-hNp"/>
+                            <constraint firstAttribute="centerX" secondItem="Qri-oY-ty9" secondAttribute="centerX" id="zf3-XK-yVO"/>
                         </constraints>
                     </view>
                     <connections>

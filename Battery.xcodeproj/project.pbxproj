@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E91128C31801532D004491EC /* BatteryDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = E91128C21801532D004491EC /* BatteryDrawing.m */; };
+		E91128C518015736004491EC /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = E91128C418015736004491EC /* iTunesArtwork.png */; };
 		E935BAFC1801366F00B363B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E935BAFB1801366F00B363B1 /* Foundation.framework */; };
 		E935BAFE1801366F00B363B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E935BAFD1801366F00B363B1 /* CoreGraphics.framework */; };
 		E935BB001801366F00B363B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E935BAFF1801366F00B363B1 /* UIKit.framework */; };
@@ -37,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E91128C11801532D004491EC /* BatteryDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatteryDrawing.h; sourceTree = "<group>"; };
+		E91128C21801532D004491EC /* BatteryDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatteryDrawing.m; sourceTree = "<group>"; };
+		E91128C418015736004491EC /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = SOURCE_ROOT; };
 		E935BAF81801366F00B363B1 /* Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Battery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E935BAFB1801366F00B363B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E935BAFD1801366F00B363B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -120,6 +125,9 @@
 		E935BB011801366F00B363B1 /* JA Battery */ = {
 			isa = PBXGroup;
 			children = (
+				E91128C418015736004491EC /* iTunesArtwork.png */,
+				E91128C11801532D004491EC /* BatteryDrawing.h */,
+				E91128C21801532D004491EC /* BatteryDrawing.m */,
 				E935BB0A1801366F00B363B1 /* JABAppDelegate.h */,
 				E935BB0B1801366F00B363B1 /* JABAppDelegate.m */,
 				E935BB0D1801366F00B363B1 /* Main_iPhone.storyboard */,
@@ -213,6 +221,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Programming Thomas";
 				TargetAttributes = {
+					E935BAF71801366F00B363B1 = {
+						DevelopmentTeam = XT4Q76JCC4;
+					};
 					E935BB1B1801367000B363B1 = {
 						TestTargetID = E935BAF71801366F00B363B1;
 					};
@@ -245,6 +256,7 @@
 				E935BB121801366F00B363B1 /* Main_iPad.storyboard in Resources */,
 				E935BB171801366F00B363B1 /* Images.xcassets in Resources */,
 				E935BB0F1801366F00B363B1 /* Main_iPhone.storyboard in Resources */,
+				E91128C518015736004491EC /* iTunesArtwork.png in Resources */,
 				E935BB061801366F00B363B1 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +280,7 @@
 				E935BB151801366F00B363B1 /* JABViewController.m in Sources */,
 				E935BB081801366F00B363B1 /* main.m in Sources */,
 				E935BB3818013DE900B363B1 /* JABBatteryView.m in Sources */,
+				E91128C31801532D004491EC /* BatteryDrawing.m in Sources */,
 				E935BB351801388300B363B1 /* JABBattery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JA Battery/Battery-Prefix.pch";
 				INFOPLIST_FILE = "JA Battery/Battery-Info.plist";
@@ -419,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JA Battery/Battery-Prefix.pch";
 				INFOPLIST_FILE = "JA Battery/Battery-Info.plist";

@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BatteryDrawing.h"
 
 @interface JABBatteryView : UIView
 
