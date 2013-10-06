@@ -92,6 +92,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E91128C618015B1A004491EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E935BB331801388300B363B1 /* JABBattery.h */,
+				E935BB341801388300B363B1 /* JABBattery.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E91128C718015B2B004491EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E91128C11801532D004491EC /* BatteryDrawing.h */,
+				E91128C21801532D004491EC /* BatteryDrawing.m */,
+				E935BB3618013DE900B363B1 /* JABBatteryView.h */,
+				E935BB3718013DE900B363B1 /* JABBatteryView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E91128C818015B35004491EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E935BB0A1801366F00B363B1 /* JABAppDelegate.h */,
+				E935BB0B1801366F00B363B1 /* JABAppDelegate.m */,
+				E935BB131801366F00B363B1 /* JABViewController.h */,
+				E935BB141801366F00B363B1 /* JABViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		E935BAEF1801366F00B363B1 = {
 			isa = PBXGroup;
 			children = (
@@ -125,21 +156,13 @@
 		E935BB011801366F00B363B1 /* JA Battery */ = {
 			isa = PBXGroup;
 			children = (
-				E91128C418015736004491EC /* iTunesArtwork.png */,
-				E91128C11801532D004491EC /* BatteryDrawing.h */,
-				E91128C21801532D004491EC /* BatteryDrawing.m */,
-				E935BB0A1801366F00B363B1 /* JABAppDelegate.h */,
-				E935BB0B1801366F00B363B1 /* JABAppDelegate.m */,
+				E91128C618015B1A004491EC /* Model */,
+				E91128C718015B2B004491EC /* View */,
+				E91128C818015B35004491EC /* Controller */,
 				E935BB0D1801366F00B363B1 /* Main_iPhone.storyboard */,
 				E935BB101801366F00B363B1 /* Main_iPad.storyboard */,
-				E935BB131801366F00B363B1 /* JABViewController.h */,
-				E935BB141801366F00B363B1 /* JABViewController.m */,
 				E935BB161801366F00B363B1 /* Images.xcassets */,
 				E935BB021801366F00B363B1 /* Supporting Files */,
-				E935BB331801388300B363B1 /* JABBattery.h */,
-				E935BB341801388300B363B1 /* JABBattery.m */,
-				E935BB3618013DE900B363B1 /* JABBatteryView.h */,
-				E935BB3718013DE900B363B1 /* JABBatteryView.m */,
 			);
 			path = "JA Battery";
 			sourceTree = "<group>";
@@ -147,6 +170,7 @@
 		E935BB021801366F00B363B1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E91128C418015736004491EC /* iTunesArtwork.png */,
 				E935BB031801366F00B363B1 /* Battery-Info.plist */,
 				E935BB041801366F00B363B1 /* InfoPlist.strings */,
 				E935BB071801366F00B363B1 /* main.m */,
