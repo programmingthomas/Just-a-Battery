@@ -23,7 +23,7 @@
     //These blocks will be called immediately after they are set to set the default values
     [battery setBatteryPercentageDidChangeBlock:^(float fValue, NSInteger iValue) {
         self.batteryView.batteryPercentage = fValue;
-        self.levelLabel.text = [NSString stringWithFormat:@"%ld%%", (long)iValue];
+        self.levelLabel.text = [NSString stringWithFormat:@"%ld%% remaining", (long)iValue];
     }];
     
     [battery setBatteryStateDidChangeBlock:^(UIDeviceBatteryState state, NSString * stateString) {
