@@ -11,6 +11,6 @@
 
 @interface JABBatteryView : UIView
 
-@property (nonatomic) NSInteger batteryPercentage;
+@property (nonatomic) float batteryPercentage;
 
 @end

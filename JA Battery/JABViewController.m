@@ -18,19 +18,12 @@
 {
     [super viewDidLoad];
     
-    //iOS 6 doesn't support the new text stuff
-    if ([[[UIDevice currentDevice] systemVersion] floatValue] < 7)
-    {
-        self.levelLabel.font = [UIFont boldSystemFontOfSize:24];
-        self.stateLabel.font = [UIFont systemFontOfSize:18];
-    }
-    
     JABBattery * battery = [JABBattery batteryMonitor];
     
     //These blocks will be called immediately after they are set to set the default values
     [battery setBatteryPercentageDidChangeBlock:^(float fValue, NSInteger iValue) {
-        self.batteryView.batteryPercentage = iValue;
-        self.levelLabel.text = [NSString stringWithFormat:@"%d%%", iValue];
+        self.batteryView.batteryPercentage = fValue;
+        self.levelLabel.text = [NSString stringWithFormat:@"%ld%%", (long)iValue];
     }];
     
     [battery setBatteryStateDidChangeBlock:^(UIDeviceBatteryState state, NSString * stateString) {

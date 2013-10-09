@@ -27,36 +27,36 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qri-oY-ty9">
-                                <rect key="frame" x="128" y="660" width="512" height="21"/>
+                                <rect key="frame" x="128" y="660" width="512" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="7h7-h5-gWn"/>
-                                    <constraint firstAttribute="width" constant="512" id="Bez-4N-fVa"/>
+                                    <constraint firstAttribute="height" constant="42" id="0hf-oB-ErW"/>
+                                    <constraint firstAttribute="width" constant="512" id="4A8-Ce-paI"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="32"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4O-ev-37c">
-                                <rect key="frame" x="128" y="689" width="512" height="21"/>
+                                <rect key="frame" x="128" y="710" width="512" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="512" id="rqL-Sq-Kqa"/>
-                                    <constraint firstAttribute="height" constant="21" id="yI4-mk-mta"/>
+                                    <constraint firstAttribute="width" constant="512" id="W5P-Il-1ac"/>
+                                    <constraint firstAttribute="height" constant="40" id="to9-9W-wYR"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="w4O-ev-37c" secondAttribute="centerX" id="4bK-TD-JoF"/>
+                            <constraint firstAttribute="centerX" secondItem="w4O-ev-37c" secondAttribute="centerX" id="FBF-SQ-mNy"/>
                             <constraint firstAttribute="centerX" secondItem="e6x-d0-mrF" secondAttribute="centerX" id="FQD-yu-MPp"/>
-                            <constraint firstItem="Qri-oY-ty9" firstAttribute="top" secondItem="e6x-d0-mrF" secondAttribute="bottom" constant="8" id="eNA-3K-Mpr"/>
+                            <constraint firstItem="w4O-ev-37c" firstAttribute="top" secondItem="Qri-oY-ty9" secondAttribute="bottom" constant="8" id="XQh-0a-ffc"/>
+                            <constraint firstItem="Qri-oY-ty9" firstAttribute="top" secondItem="e6x-d0-mrF" secondAttribute="bottom" constant="8" id="ZTV-o8-5uv"/>
+                            <constraint firstAttribute="centerX" secondItem="Qri-oY-ty9" secondAttribute="centerX" id="jd4-QQ-b7G"/>
                             <constraint firstAttribute="centerY" secondItem="e6x-d0-mrF" secondAttribute="centerY" id="wzV-9i-Gqt"/>
-                            <constraint firstItem="w4O-ev-37c" firstAttribute="top" secondItem="Qri-oY-ty9" secondAttribute="bottom" constant="8" id="zFC-g2-hNp"/>
-                            <constraint firstAttribute="centerX" secondItem="Qri-oY-ty9" secondAttribute="centerX" id="zf3-XK-yVO"/>
                         </constraints>
                     </view>
                     <connections>
