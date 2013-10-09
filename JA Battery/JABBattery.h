@@ -8,14 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-typedef void(^BatteryPercentageDidChange)(float, NSInteger);
-typedef void(^BatteryStateDidChange)(UIDeviceBatteryState, NSString*);
 
 @interface JABBattery : NSObject
-{
-    BatteryPercentageDidChange _percentageDidChange;
-    BatteryStateDidChange _stateDidChange;
-}
 
 +(instancetype)batteryMonitor;
 
@@ -23,8 +17,5 @@ typedef void(^BatteryStateDidChange)(UIDeviceBatteryState, NSString*);
 -(NSInteger)currentPercentage;
 -(UIDeviceBatteryState)batteryState;
 -(NSString*)batteryStateString;
-
--(void)setBatteryPercentageDidChangeBlock:(BatteryPercentageDidChange)block;
--(void)setBatteryStateDidChangeBlock:(BatteryStateDidChange)block;
 
 @end

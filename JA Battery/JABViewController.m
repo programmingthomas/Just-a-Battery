@@ -18,17 +18,20 @@
 {
     [super viewDidLoad];
     
-    JABBattery * battery = [JABBattery batteryMonitor];
+    self.battery = [JABBattery batteryMonitor];
     
-    //These blocks will be called immediately after they are set to set the default values
-    [battery setBatteryPercentageDidChangeBlock:^(float fValue, NSInteger iValue) {
-        self.batteryView.batteryPercentage = fValue;
-        self.levelLabel.text = [NSString stringWithFormat:@"%ld%% remaining", (long)iValue];
-    }];
+    //Set up notifications
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBattery) name:UIDeviceBatteryLevelDidChangeNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateBattery) name:UIDeviceBatteryStateDidChangeNotification object:nil];
     
-    [battery setBatteryStateDidChangeBlock:^(UIDeviceBatteryState state, NSString * stateString) {
-        self.stateLabel.text = stateString;
-    }];
+    [self updateBattery];
+}
+
+-(void)updateBattery
+{
+    self.batteryView.batteryPercentage = self.battery.currentValue;
+    self.levelLabel.text = [NSString stringWithFormat:@"%ld%% remaining", (long)self.battery.currentPercentage];
+    self.stateLabel.text = self.battery.batteryStateString;
 }
 
 - (void)didReceiveMemoryWarning

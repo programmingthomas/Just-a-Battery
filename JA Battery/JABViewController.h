@@ -11,6 +11,9 @@
 #import "JABBatteryView.h"
 
 @interface JABViewController : UIViewController
+
+@property JABBattery * battery;
+
 @property (weak, nonatomic) IBOutlet JABBatteryView *batteryView;
 @property (weak, nonatomic) IBOutlet UILabel *levelLabel;
 @property (weak, nonatomic) IBOutlet UILabel *stateLabel;
