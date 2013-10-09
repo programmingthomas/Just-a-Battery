@@ -17,6 +17,9 @@ A quick search on the App Store for 'battery' reveals over 1500 apps, however th
 * Have ridiculous animations and graphics to represent battery
 * Have stupid names
 * Have stupid icons
+* 'Tweet my battery'
+
+![A minimalist battery monitor](https://raw.github.com/programmingthomas/Just-a-Battery/master/iPhone3.5.png)
 
 Ultimately, I have aimed to create an app far simpler than any other app already available in order to focus on what users actually care about: how much battery they have left.
 
