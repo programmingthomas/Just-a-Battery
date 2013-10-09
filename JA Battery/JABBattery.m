@@ -60,8 +60,8 @@
 #pragma mark - Properties
 
 -(float)currentValue {
-    return 0.5f;
-//    return [[UIDevice currentDevice] batteryLevel];
+//    return 0.5f;
+    return [[UIDevice currentDevice] batteryLevel];
 }
 
 -(NSInteger)currentPercentage {
@@ -69,8 +69,8 @@
 }
 
 -(UIDeviceBatteryState)batteryState {
-    return UIDeviceBatteryStateCharging;
-    //return [[UIDevice currentDevice] batteryState];
+//    return UIDeviceBatteryStateCharging;
+    return [[UIDevice currentDevice] batteryState];
 }
 
 -(NSString*)batteryStateString
